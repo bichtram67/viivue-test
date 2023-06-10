@@ -1,0 +1,480 @@
+
+
+
+:root{
+    --background: linear-gradient(63.23deg, #204EA5 -29.6%, #EB4969 101.75%);
+    --primary: #004EAB;
+}
+body{
+    margin: 0 30px;
+    position: relative;
+}
+
+@keyframes bg-rotation {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+.circle-gradient{
+    opacity: 1;
+    transition: all .3s;
+   
+
+}
+
+
+
+.circle-dash:hover{
+    animation: bg-rotation 10s ;
+}
+
+
+.circle-gradient:hover{
+    opacity: 0.9;
+}
+
+
+
+@media (max-width: 510px){
+    #mission h1{
+       font-size: 35px;
+       margin-bottom: 100px;
+    }
+
+}
+@media (max-width: 900px) {
+    .circle{
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        cursor: pointer;
+       
+    }
+    
+    #circle-rule{
+       
+        
+
+    }
+    
+    .circle-dash{
+       
+        border: 2px dashed rgb(0 78 171 /0.15);
+        width: 224px;
+        height: 224px;
+        
+        
+    }
+    
+   
+}
+
+@media (max-width: 1200px) {
+   
+.container{
+        /* max-width: 1300px; */
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    #mission{
+        margin-top: 70px;
+        display: block;
+    }
+    
+    #mission h1{
+        letter-spacing: -2px;
+        line-height: 56px;
+        font-size: 48px;
+        color:  #353455;
+        height: 168px;
+        /* margin-right: 50px; */
+        text-align: center;
+        
+    
+        
+    }
+    
+    .circle{
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        cursor: pointer;
+    }
+    
+    
+    .circle-dash{
+       
+        border: 2px dashed rgb(0 78 171 /0.15)
+      
+        
+        
+    }
+    
+    .circle-gradient{
+       
+        background: var(--background);
+        
+    }
+    
+    .text-circle{
+        color: white;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 56px;
+        letter-spacing: -2px;
+        /* height: 56px; */
+        vertical-align: middle;
+        margin: auto;
+        
+    }
+    
+    
+    #circle-mission{
+        position: relative;
+        justify-content: center;
+        flex-wrap: wrap;
+       
+    }
+    
+    #circle-square-1000{
+        /* position: absolute;
+        top: -35%; */
+    }
+    
+    #circle-square-1000 .circle-dash{
+        width: 284px;
+        height: 284px;
+    }
+    
+    #circle-square-1000 .circle-gradient{
+        width: 258px;
+        height: 258px;
+    }
+    #circle-10K-plus{
+        /* position: absolute;
+        right: 0; */
+    }
+    
+    #circle-10K-plus .circle-dash{
+        width: 246px;
+        height: 246px;
+        /* position: absolute; */
+        /* top: 10%;
+        right: 0; */
+    }
+    
+    #circle-10K-plus .circle-gradient{
+        width: 222px;
+        height: 222px;
+        position: relative;
+    
+    }
+    #circle-10K-plus .circle-gradient .text-circle{
+        /* position: absolute;
+        top: 25%; */
+    
+    }
+    #rule{
+        margin-top: 50px;
+        display: block;
+    }
+    
+    #circle-rule{
+        position: relative;
+        /* width: 65%; */
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+    
+    #circle-20 .circle-gradient{
+        width: 222px;
+        height: 222px;
+        position: relative;
+    
+    }
+    
+    
+    #circle-20 .circle-dash{
+        width: 246px;
+        height: 246px;
+        
+    }
+    
+    #circle-400-plus {
+        /* position: absolute;
+        bottom: -40%; 
+        left: 25%; */
+    }
+    
+    #circle-400-plus .circle-dash{
+        width: 246px;
+        height: 246px;
+    }
+    
+    #circle-400-plus .circle-gradient{
+        width: 218px;
+        height: 218px;
+    }
+    
+    #circle-35-plus{
+        /* position: absolute;
+        right: 15%;
+        top: -20%; */
+    }
+    
+    #circle-35-plus .circle-dash{
+        width: 306px;
+        height: 306px;
+    }
+    
+    #circle-35-plus .circle-gradient{
+        width: 280px;
+        height: 280px;
+    }
+    
+    .list-rule{
+        /* margin-left: 50px; */
+        /* width: 100%; */
+    }
+    
+    .list-rule h3{
+        color: var(--primary);
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34px;
+        letter-spacing: -0.8px;
+    }
+    .list-rule ol{
+        margin-left: 15px;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: -0.2px;
+        margin-top: 15px;
+    }
+    
+    .list-rule ol li{
+        margin-bottom: 15px;
+    }
+    
+    .list-rule ol li::before {
+        content: "\2022";
+        color: #EB4969;
+        font-weight: bold;
+        display: inline-block; 
+        width:1em;
+        margin-left: -1em;
+      
+      }
+    
+}
+
+
+@media (min-width : 1201px){
+    .container{
+        /* max-width: 1300px; */
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    #mission{
+        margin-top: 70px;
+    }
+    
+    #mission h1{
+        letter-spacing: -2px;
+        line-height: 56px;
+        font-size: 48px;
+        color:  #353455;
+        width: 35%;
+        height: 168px;
+        margin-right: 50px;
+        
+    
+        
+    }
+    
+    .circle{
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        cursor: pointer;
+    }
+    
+    
+    .circle-dash{
+       
+        border: 2px dashed rgb(0 78 171 /0.15)
+      
+        
+        
+    }
+    
+    .circle-gradient{
+       
+        background: var(--background);
+        
+    }
+    
+    .text-circle{
+        color: white;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 56px;
+        letter-spacing: -2px;
+        /* height: 56px; */
+        vertical-align: middle;
+        margin: auto;
+        
+    }
+    
+    
+    #circle-mission{
+        position: relative;
+        width: 50%;
+    }
+    
+    #circle-square-1000{
+        position: absolute;
+        top: -35%;
+    }
+    
+    #circle-square-1000 .circle-dash{
+        width: 284px;
+        height: 284px;
+    }
+    
+    #circle-square-1000 .circle-gradient{
+        width: 258px;
+        height: 258px;
+    }
+    #circle-10K-plus{
+        position: absolute;
+        right: 0;
+    }
+    
+    #circle-10K-plus .circle-dash{
+        width: 246px;
+        height: 246px;
+        /* position: absolute; */
+        /* top: 10%;
+        right: 0; */
+    }
+    
+    #circle-10K-plus .circle-gradient{
+        width: 222px;
+        height: 222px;
+        position: relative;
+    
+    }
+    #circle-10K-plus .circle-gradient .text-circle{
+        /* position: absolute;
+        top: 25%; */
+    
+    }
+    #rule{
+        margin-top: 100px;
+    }
+    
+    #circle-rule{
+        position: relative;
+        width: 65%;
+        
+    }
+    
+    #circle-20 .circle-gradient{
+        width: 222px;
+        height: 222px;
+        position: relative;
+    
+    }
+    
+    
+    #circle-20 .circle-dash{
+        width: 246px;
+        height: 246px;
+        
+    }
+    
+    #circle-400-plus {
+        position: absolute;
+        bottom: -40%; 
+        left: 25%;
+    }
+    
+    #circle-400-plus .circle-dash{
+        width: 246px;
+        height: 246px;
+    }
+    
+    #circle-400-plus .circle-gradient{
+        width: 218px;
+        height: 218px;
+    }
+    
+    #circle-35-plus{
+        position: absolute;
+        right: 15%;
+        top: -20%;
+    }
+    
+    #circle-35-plus .circle-dash{
+        width: 306px;
+        height: 306px;
+    }
+    
+    #circle-35-plus .circle-gradient{
+        width: 280px;
+        height: 280px;
+    }
+    
+    .list-rule{
+        /* margin-left: 50px; */
+        width: 29%;
+    }
+    
+    .list-rule h3{
+        color: var(--primary);
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34px;
+        letter-spacing: -0.8px;
+    }
+    .list-rule ol{
+        margin-left: 15px;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: -0.2px;
+        margin-top: 15px;
+    }
+    
+    .list-rule ol li{
+        margin-bottom: 15px;
+    }
+    
+    .list-rule ol li::before {
+        content: "\2022";
+        color: #EB4969;
+        font-weight: bold;
+        display: inline-block; 
+        width:1em;
+        margin-left: -1em;
+      
+      }
+    
+}
+  
+
+
+
+
+

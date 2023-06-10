@@ -1,0 +1,26 @@
+.flex{
+    display: flex;
+
+}
+.j-center{
+    justify-content: center;
+}
+.j-between{
+    justify-content: space-between;
+}
+.a-center{
+    align-items: center;
+}
+.j-end{
+    justify-content: flex-end;
+}
+.a-end{
+    align-items: flex-end;
+}
+.bold{
+    font-weight: bold;
+}
+
+.inline{
+    display: inline;
+}
